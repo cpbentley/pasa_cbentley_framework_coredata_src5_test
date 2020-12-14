@@ -14,7 +14,7 @@ public abstract class CoreData5Test extends TestCaseBentley {
    public CoreData5Test() {
       boc = new BOCtx(uc);
       ConfigCoreData5Default configData = new ConfigCoreData5Default(uc);
-      cdc5 = new CoreData5Ctx(boc, configData);
+      cdc5 = new CoreData5Ctx(configData, boc);
    }
 
    public void setupAbstract() {
