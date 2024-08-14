@@ -1,8 +1,8 @@
-package pasa.cbentley.framework.coredata.src5.tests;
+package pasa.cbentley.framework.core.data.src5.tests;
 
 import pasa.cbentley.byteobjects.src4.ctx.BOCtx;
-import pasa.cbentley.framework.coredata.src5.ctx.ConfigCoreData5Default;
-import pasa.cbentley.framework.coredata.src5.ctx.CoreData5Ctx;
+import pasa.cbentley.framework.core.data.src5.ctx.ConfigCoreData5Default;
+import pasa.cbentley.framework.core.data.src5.ctx.CoreData5Ctx;
 import pasa.cbentley.testing.engine.TestCaseBentley;
 
 public abstract class CoreData5Test extends TestCaseBentley {

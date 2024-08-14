@@ -1,4 +1,4 @@
-package pasa.cbentley.framework.coredata.src5.engine.tests;
+package pasa.cbentley.framework.core.data.src5.engine.tests;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -6,13 +6,13 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
-import pasa.cbentley.framework.coredata.src4.ex.StoreException;
-import pasa.cbentley.framework.coredata.src4.ex.StoreNotOpenException;
-import pasa.cbentley.framework.coredata.src5.ctx.CoreData5Ctx;
-import pasa.cbentley.framework.coredata.src5.engine.RecordStoreHashMap;
-import pasa.cbentley.framework.coredata.src5.interfaces.IRecordStoreManager;
-import pasa.cbentley.framework.coredata.src5.rsm.RSMPureMemory;
-import pasa.cbentley.framework.coredata.src5.tests.CoreData5Test;
+import pasa.cbentley.framework.core.data.src4.ex.StoreException;
+import pasa.cbentley.framework.core.data.src4.ex.StoreNotOpenException;
+import pasa.cbentley.framework.core.data.src5.ctx.CoreData5Ctx;
+import pasa.cbentley.framework.core.data.src5.engine.RecordStoreHashMap;
+import pasa.cbentley.framework.core.data.src5.interfaces.IRecordStoreManager;
+import pasa.cbentley.framework.core.data.src5.rsm.RSMPureMemory;
+import pasa.cbentley.framework.core.data.src5.tests.CoreData5Test;
 
 public class TestRecordStoreHashMap extends CoreData5Test {
 

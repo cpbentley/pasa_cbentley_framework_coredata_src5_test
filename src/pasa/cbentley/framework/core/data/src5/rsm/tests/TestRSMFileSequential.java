@@ -1,9 +1,9 @@
-package pasa.cbentley.framework.coredata.src5.rsm.tests;
+package pasa.cbentley.framework.core.data.src5.rsm.tests;
 
 import java.io.File;
 
-import pasa.cbentley.framework.coredata.src5.rsm.RSMFileSequential;
-import pasa.cbentley.framework.coredata.src5.tests.CoreData5Test;
+import pasa.cbentley.framework.core.data.src5.rsm.RSMFileSequential;
+import pasa.cbentley.framework.core.data.src5.tests.CoreData5Test;
 
 public class TestRSMFileSequential extends CoreData5Test {
 
